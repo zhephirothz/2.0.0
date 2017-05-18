@@ -21,8 +21,10 @@ export default function MainLayout ({ children }) {
         />
         <meta
           property='og:image'
-          content='https://reactbkk.github.io/2.0.0/static/og-image.jpg'
+          content='https://cloud.githubusercontent.com/assets/193136/26197053/232bb2a8-3beb-11e7-9058-3e34af946bc9.jpg'
         />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <script dangerouslySetInnerHTML={{ __html: ga }} />
       </Head>
       <style global jsx>{`
